@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: juice-shop
+  description: The best juice shop in the world.
+  labels:
+    example.com/custom: custom_label_value
+  title: Snyk Spring demo
+  tags:
+    - javascript
+    - nodejs
+    - web
+    - juice
+  links:
+    - url: https://demo-fake.io/
+      title: Snyk Spring demo
+      icon: Blender
+      type: website
+spec:
+  type: website
+  lifecycle: production
+  owner: rockstar-team
+  system: public-websites
